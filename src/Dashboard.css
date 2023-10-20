@@ -1,0 +1,92 @@
+/* Dashboard.css */
+
+.dashboard {
+  display: flex;
+  background: #000;
+  color: #fff;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.side-bar {
+  width: 260px;
+  background: linear-gradient(to bottom, #0c0c0c, #111);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 40px;
+  height: 40px;
+}
+
+.logo-text {
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.menu {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+}
+
+.menu-item:hover {
+  background: #1d1d1d;
+}
+
+.active {
+  background: #1d1d1d;
+  font-weight: bold;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  transition: margin-left 0.3s;
+  background: #000;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.menu-icon,
+.notifications-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.menu-icon:hover,
+.notifications-icon:hover {
+  color: #45a29e;
+}
+
+.content {
+  background: #111;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Add more styles for your content, buttons, and components as needed */
